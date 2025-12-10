@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug (lldb)",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/crypto",
+      "cwd": "${workspaceFolder}/src",
+      "args": [],
+      "preLaunchTask": "build"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/kasahara/dev/cryptorate",
+      "program": "/Users/kasahara/dev/cryptorate/build/Debug/outDebug"
+    }
+  ]
+}
